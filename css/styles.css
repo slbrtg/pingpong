@@ -63,3 +63,38 @@ float: left;
     overflow-y: scroll;
     style: overflow-hidden;
 }
+
+/* Portrait phones and smaller */
+@media only screen and (max-width: 500px) {
+  body {
+    max-width: 500px;
+    color: pink;
+  }
+      #output {
+        position: relative;
+        float: left;
+        max-width: 100px;
+      }
+
+      #output > * {
+        font-size: 125%;
+      }
+      #maincontainer {
+        width: 35%;
+        height: 20%;
+        margin-left: 10em;
+      }
+      #maincontainer > * {
+        font-size: 30%
+      }
+
+      #pingpong-gif {
+        margin-left: -20em;
+        width: 300px;
+        height: 175px;
+      }
+
+      #submit {
+        margin-left: 1.5em;
+      }
+}

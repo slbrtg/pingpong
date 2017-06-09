@@ -1,6 +1,7 @@
 //function to generate the ping pong results
 
 function pingPong (num){
+  $("#output").empty();
   for (var x = 1 ; x <= num ; x++){
     if (x % 3 === 0 && x % 5 === 0){
       $("#output").append("<p class='pingpong-output'>ping pong</p>")
