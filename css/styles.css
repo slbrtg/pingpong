@@ -33,12 +33,11 @@ body {
 
 /*ping pong gif*/
 #pingpong-gif {
-  height: 5em;
-  width: 5em;
-  text-align: center;
+  margin-left: 18em;
+  width: 600px;
+  height: 375px;
 }
 
-/*form input line*/
 
 /*Submit Button styles*/
 #submit {
