@@ -1,3 +1,5 @@
+//function to generate the ping pong results
+
 function pingPong (num){
   for (var x = 1 ; x <= num ; x++){
     if (x % 3 === 0 && x % 5 === 0){
@@ -11,6 +13,8 @@ function pingPong (num){
     }
   }
 }
+
+//function to run on submit which calls pingPong()
 
 $(document).on("submit", "form#pingpong-input", function(){
   event.preventDefault();
