@@ -23,7 +23,7 @@ body {
 
 /*margins for main container content*/
 #maincontainer {
-  margin-right: 27em;
+float: left;
 }
 
 /*Styling and position of text*/
