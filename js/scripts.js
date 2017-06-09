@@ -14,6 +14,12 @@ function pingPong (num){
   }
 }
 
+//Document ready function to play pong sounds
+$(document).ready(function(){
+  var audio = new Audio('audio/pong.mp3');
+  audio.play();
+})
+
 //function to run on submit which calls pingPong()
 
 $(document).on("submit", "form#pingpong-input", function(){
