@@ -9,19 +9,26 @@
     <title></title>
   </head>
   <body>
-    <div class="container" id="maincontainer">
-      <form id="pingpong-input">
-        <div class="form-group">
-          <h1 id="banner-h1">Ping Pong</h1>
-          <img id="pingpong-gif" src="img/pingpong.gif" alt="">
-          <h3 id="banner-h3">Enter a Number</h3>
-          <input id="pingpong-num" class="form-control" type="text" placeholder="">
-          <button type="submit" class="btn-danger btn-lg active" id="submit"><span id="ping-submit">Ping</span></button>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="pre-scrollable"id="output">
+          <!-- the output of the ping pong function -->
         </div>
-      </form>
-      <div class="pre-scrollable"id="output">
-
+      </div>
+      <div class="col-md-9">
+        <div class="container" id="maincontainer">
+          <form id="pingpong-input">
+            <div class="form-group">
+              <h1 id="banner-h1">Ping Pong</h1>
+              <img id="pingpong-gif" src="img/pingpong.gif" alt="">
+              <h3 id="banner-h3">Enter a Number</h3>
+              <input id="pingpong-num" class="form-control" type="text" placeholder="">
+              <button type="submit" class="btn-danger btn-lg active" id="submit"><span id="ping-submit">Ping</span></button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
+
   </body>
 </html>
