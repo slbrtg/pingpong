@@ -8,6 +8,11 @@
 
 }
 
+/*Hides scrollbar for aesthetic purposes*/
+::-webkit-scrollbar {
+    display: none;
+}
+
 /*page wide styles*/
 body {
   background-color: black;
@@ -56,4 +61,5 @@ body {
 .pre-scrollable {
     max-height: 800px;
     overflow-y: scroll;
+    style: overflow-hidden;
 }
