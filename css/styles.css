@@ -30,3 +30,18 @@ body {
 .pingpong-output {
   font-size: 2em;
 }
+
+/*ping pong gif*/
+#pingpong-gif {
+  height: 5em;
+  width: 5em;
+  text-align: center;
+}
+
+/*form input line*/
+
+/*Submit Button styles*/
+#submit {
+  margin-left: 29em;
+  margin-top: 3em;
+}
