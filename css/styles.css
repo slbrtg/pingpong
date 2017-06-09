@@ -16,6 +16,11 @@ body {
   color: white;
 }
 
+/*margins for main container content*/
+#maincontainer {
+  margin-right: 27em;
+}
+
 /*Styling and position of text*/
 #banner-h1 {
   text-align: center;
@@ -28,7 +33,8 @@ body {
 }
 
 .pingpong-output {
-  font-size: 2em;
+  font-size: 2.5em;
+  margin-left: 1em;
 }
 
 /*ping pong gif*/
@@ -43,4 +49,11 @@ body {
 #submit {
   margin-left: 29em;
   margin-top: 3em;
+}
+
+/*Overwrite bootstrap pre-scrollable for more height*/
+
+.pre-scrollable {
+    max-height: 800px;
+    overflow-y: scroll;
 }
