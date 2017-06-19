@@ -1,6 +1,6 @@
 # _Ping Pong Number's Thing_
 
-#### _It allows users to input any number and see numbers divisible by 3, 5, or both be replaced with ping, pong, or ping pong. The site also links users to an online ping game. June 2017_
+#### _It allows users to input any number and see numbers divisible by 3, 5, or both be replaced with ping, pong, or ping pong. The site also links users to an online ping pong game. June 2017_
 
 #### By _Saul :]_
 
